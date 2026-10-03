@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#07101a">
+<title>Play Cello Like a Professional — Free Lesson Call with Santo Scala Mora</title>
+<meta name="description" content="Private cello lessons online with Santo Scala Mora — Simón Bolívar Symphony, Kunstuniversität Graz, Wiener Konzerthaus. Book your free 20-minute cello diagnostic call.">
+<meta property="og:title" content="Stop practicing in circles. Get a clear cello plan in 20 minutes.">
+<meta property="og:description" content="Free 20-minute cello diagnostic call with a Simón Bolívar and Graz-trained cellist.">
+<meta property="og:image" content="assets/capa.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;500;700;900&family=DM+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+<style>
+/* =========================================================
+   SANTO SCALA MORA — conversion page
+   Edit the offer in the CONFIG block at the bottom (JS).
+   ========================================================= */
+:root{
+  --bg:#07101a; --bg2:#0c1b2a; --bg3:#112436;
+  --sea:#16576b; --sand:#ece2cc; --luna:#f4eddc;
+  --gold:#f0b429; --gold-2:#d9a227; --rose:#e0405c; --ok:#3ddc97;
+  --txt:#e7e0d0; --dim:#9aa7b4; --ink:#15202b; --ink-dim:#5f5847;
+  --rule:rgba(231,224,208,.13);
+  --ease:cubic-bezier(.16,.84,.28,1);
+  --pad:20px; --sec:64px; --bar:44px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:70px;}
+body{background:var(--bg);color:var(--txt);font-family:'Chivo',system-ui,sans-serif;font-size:16px;font-weight:300;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden;padding-top:var(--bar);}
+img{display:block;max-width:100%;}
+a{color:inherit;text-decoration:none;}
+button,input,select,textarea{font:inherit;color:inherit;}
+button{cursor:pointer;background:none;border:0;}
+::selection{background:var(--gold);color:var(--bg);}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;}
+h1,h2,h3{font-family:'Newsreader',Georgia,serif;font-weight:500;letter-spacing:-.02em;line-height:1.08;}
+b,strong{font-weight:700;color:var(--luna);}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 var(--pad);position:relative;}
+.mono{font-family:'DM Mono',monospace;}
+.eyebrow{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);}
+section{padding:var(--sec) 0;position:relative;}
+.light{background:var(--sand);color:var(--ink);}
+.light b,.light strong{color:var(--ink);}
+.light .eyebrow{color:#a8263e;}
+.h2{font-size:clamp(30px,8vw,52px);margin-top:12px;}
+.h2 em{font-style:italic;color:var(--gold);}
+.light .h2 em{color:#a8263e;}
+.lede{margin-top:16px;font-size:17px;color:var(--dim);max-width:52ch;}
+.light .lede{color:var(--ink-dim);}
+.center{text-align:center;} .center .lede{margin-left:auto;margin-right:auto;}
+
+/* ---------- top urgency bar ---------- */
+#alert{position:fixed;top:0;left:0;right:0;height:var(--bar);z-index:300;background:linear-gradient(90deg,#a8263e,#e0405c 50%,#a8263e);color:#fff;display:flex;align-items:center;justify-content:center;gap:10px;padding:0 12px;font-size:12.5px;font-weight:500;text-align:center;line-height:1.2;}
+#alert .dot{width:8px;height:8px;border-radius:50%;background:#fff;flex:none;animation:pulse 1.4s infinite;}
+#alert u{text-underline-offset:3px;font-weight:700;}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,255,255,.7);}100%{box-shadow:0 0 0 10px rgba(255,255,255,0);}}
+
+/* ---------- buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;width:100%;padding:19px 26px;border-radius:14px;background:linear-gradient(180deg,#ffd166,var(--gold) 55%,#e39d0a);color:#1b1300;font-weight:900;font-size:16.5px;letter-spacing:.01em;text-transform:uppercase;box-shadow:0 1px 0 rgba(255,255,255,.5) inset,0 10px 30px -6px rgba(240,180,41,.55),0 0 0 1px rgba(0,0,0,.2);transition:transform .25s var(--ease),box-shadow .25s;position:relative;overflow:hidden;}
+.btn::after{content:"";position:absolute;top:0;left:-80%;width:50%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-20deg);animation:shine 3.4s infinite;}
+@keyframes shine{0%,60%{left:-80%;}100%{left:160%;}}
+.btn:hover{transform:translateY(-2px);box-shadow:0 1px 0 rgba(255,255,255,.5) inset,0 16px 38px -6px rgba(240,180,41,.7),0 0 0 1px rgba(0,0,0,.2);}
+.btn:active{transform:scale(.98);}
+.btn svg{width:20px;height:20px;flex:none;}
+.btn.ghost{background:transparent;color:var(--luna);box-shadow:inset 0 0 0 1px var(--rule);text-transform:none;font-weight:500;font-size:15px;}
+.btn.ghost::after{display:none;}
+.micro{margin-top:12px;font-size:12.5px;color:var(--dim);display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:center;}
+.micro span::before{content:"✓ ";color:var(--ok);font-weight:700;}
+.light .micro{color:var(--ink-dim);}
+
+/* ---------- hero ---------- */
+.hero{padding:26px 0 56px;overflow:hidden;background:radial-gradient(120% 60% at 80% 0%,#123a4c 0%,transparent 60%),var(--bg);}
+.hero-grid{display:grid;gap:26px;}
+.badge{display:inline-flex;align-items:center;gap:9px;padding:8px 14px;border:1px solid rgba(240,180,41,.4);border-radius:99px;background:rgba(240,180,41,.08);font-size:12px;color:var(--gold);font-weight:500;}
+.badge i{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 0 0 rgba(61,220,151,.6);animation:pulse2 1.6s infinite;}
+@keyframes pulse2{0%{box-shadow:0 0 0 0 rgba(61,220,151,.6);}100%{box-shadow:0 0 0 9px rgba(61,220,151,0);}}
+.hero h1{font-size:clamp(38px,10.6vw,84px);line-height:1;margin-top:18px;color:var(--luna);letter-spacing:-.03em;}
+.hero h1 em{font-style:italic;color:var(--gold);position:relative;white-space:nowrap;}
+.hero h1 em::after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:8px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 8' preserveAspectRatio='none'%3E%3Cpath d='M0 5 Q 25 0 50 4 T 100 4 T 150 4 T 200 3' fill='none' stroke='%23e0405c' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat;}
+.hero .sub{margin-top:20px;font-size:clamp(16px,4.3vw,20px);color:var(--txt);max-width:46ch;}
+.hero .sub b{color:var(--gold);}
+.bullets{list-style:none;margin-top:22px;display:grid;gap:11px;}
+.bullets li{display:flex;gap:12px;font-size:15.5px;align-items:flex-start;}
+.bullets li::before{content:"";flex:none;width:22px;height:22px;margin-top:1px;border-radius:50%;background:var(--ok) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2307101a' stroke-width='3.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12.5l4.5 4.5L19 7.5'/%3E%3C/svg%3E") center/13px no-repeat;}
+.hero-photo{position:relative;border-radius:20px;overflow:hidden;aspect-ratio:4/4.6;order:-1;box-shadow:0 30px 80px -20px rgba(0,0,0,.8),0 0 0 1px var(--rule);}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 18%;}
+.hero-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(7,16,26,.92) 0%,rgba(7,16,26,0) 45%);}
+.hero-photo .tag{position:absolute;left:16px;right:16px;bottom:16px;z-index:2;display:flex;justify-content:space-between;align-items:flex-end;gap:12px;}
+.hero-photo .tag b{font-family:'Newsreader',serif;font-size:22px;font-weight:500;display:block;line-height:1.1;}
+.hero-photo .tag span{font-size:12px;color:var(--dim);}
+.hero-photo .seal{flex:none;padding:7px 11px;border-radius:8px;background:rgba(7,16,26,.75);backdrop-filter:blur(8px);border:1px solid var(--rule);font-family:'DM Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);}
+.avail{margin-top:18px;display:flex;align-items:center;gap:12px;font-size:13px;color:var(--dim);}
+.avail .bars{display:flex;gap:4px;}
+.avail .bars i{width:26px;height:6px;border-radius:3px;background:var(--gold);}
+.avail .bars i.x{background:var(--rule);}
+
+/* ---------- form card ---------- */
+.card{background:linear-gradient(180deg,#132a3e,#0d1f30);border:1px solid rgba(240,180,41,.35);border-radius:22px;padding:22px 18px 20px;box-shadow:0 30px 80px -24px rgba(0,0,0,.85),0 0 60px -20px rgba(240,180,41,.25);position:relative;}
+.card::before{content:"FREE";position:absolute;top:-13px;right:22px;background:var(--rose);color:#fff;font-weight:900;font-size:12px;letter-spacing:.14em;padding:5px 13px;border-radius:99px;box-shadow:0 8px 20px -6px rgba(224,64,92,.7);}
+.card h3{font-size:24px;color:var(--luna);line-height:1.15;}
+.card .p{margin-top:6px;font-size:13.5px;color:var(--dim);}
+.prog{margin:16px 0 4px;display:flex;align-items:center;gap:10px;font-family:'DM Mono',monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);}
+.prog .track{flex:1;height:5px;border-radius:3px;background:rgba(231,224,208,.1);overflow:hidden;}
+.prog .fill{display:block;height:100%;width:33%;background:linear-gradient(90deg,var(--gold-2),var(--gold));border-radius:3px;transition:width .5s var(--ease);}
+.step{display:none;animation:stepin .5s var(--ease);}
+.step.on{display:block;}
+@keyframes stepin{from{opacity:0;transform:translateX(16px);}to{opacity:1;transform:none;}}
+.q{margin:14px 0 12px;font-weight:700;font-size:15.5px;color:var(--luna);}
+.opts{display:grid;gap:9px;}
+.opt{position:relative;}
+.opt input{position:absolute;opacity:0;inset:0;cursor:pointer;}
+.opt span{display:flex;align-items:center;gap:12px;padding:14px 15px;border-radius:12px;border:1.5px solid var(--rule);background:rgba(255,255,255,.025);font-size:15px;line-height:1.3;transition:border-color .2s,background .2s,transform .2s;}
+.opt span em{font-style:normal;font-size:20px;flex:none;}
+.opt span small{display:block;font-size:12px;color:var(--dim);margin-top:1px;}
+.opt:hover span{border-color:rgba(240,180,41,.5);}
+.opt input:checked+span{border-color:var(--gold);background:rgba(240,180,41,.11);box-shadow:0 0 0 3px rgba(240,180,41,.14);}
+.opt input:focus-visible+span{outline:2px solid var(--gold);outline-offset:2px;}
+.fld{display:grid;gap:6px;margin-bottom:12px;}
+.fld label{font-size:12.5px;font-weight:500;color:var(--dim);}
+.fld input,.fld textarea,.fld select{width:100%;padding:14px 15px;border-radius:12px;border:1.5px solid var(--rule);background:rgba(0,0,0,.28);font-size:16px;transition:border-color .2s,box-shadow .2s;}
+.fld textarea{resize:vertical;min-height:74px;}
+.fld input:focus,.fld textarea:focus,.fld select:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px rgba(240,180,41,.16);}
+.fld input.bad{border-color:var(--rose);}
+.err{color:#ff8fa3;font-size:12.5px;min-height:0;margin:-4px 0 8px;display:none;}
+.err.on{display:block;}
+.row2{display:grid;gap:12px;}
+.back{margin-top:12px;width:100%;font-size:13px;color:var(--dim);text-decoration:underline;text-underline-offset:3px;padding:6px;}
+.hp{position:absolute;left:-9999px;opacity:0;height:0;overflow:hidden;}
+.lock{margin-top:12px;display:flex;align-items:center;justify-content:center;gap:8px;font-size:11.5px;color:var(--dim);text-align:center;}
+.done{display:none;text-align:center;padding:10px 4px 4px;}
+.card.sent .form-body{display:none;}
+.card.sent .done{display:block;animation:stepin .6s var(--ease);}
+.card.sent::before{content:"DONE";background:var(--ok);color:#06210f;}
+.done .tick{width:64px;height:64px;border-radius:50%;margin:6px auto 14px;background:var(--ok);display:grid;place-items:center;box-shadow:0 0 0 10px rgba(61,220,151,.14);}
+.done .tick svg{width:32px;height:32px;stroke:#06210f;stroke-width:3.4;fill:none;stroke-linecap:round;stroke-linejoin:round;}
+.done h3{font-size:26px;color:var(--luna);}
+.done p{margin:10px 0 18px;font-size:14.5px;color:var(--dim);}
+.done .btn{margin-top:8px;}
+
+/* ---------- proof strip ---------- */
+.strip{background:var(--bg2);border-block:1px solid var(--rule);padding:22px 0;overflow:hidden;white-space:nowrap;}
+.strip-track{display:inline-flex;animation:marq 46s linear infinite;}
+.strip-track span{font-family:'Newsreader',serif;font-size:18px;color:var(--dim);padding:0 22px;display:inline-flex;align-items:center;gap:22px;}
+.strip-track span::after{content:"◆";font-size:7px;color:var(--gold-2);}
+@keyframes marq{to{transform:translateX(-50%);}}
+.strip small{display:block;text-align:center;margin-bottom:12px;font-family:'DM Mono',monospace;font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);white-space:normal;}
+
+/* ---------- pain ---------- */
+.pain-list{margin-top:32px;display:grid;gap:12px;}
+.pain{display:flex;gap:16px;align-items:flex-start;padding:18px;border-radius:14px;background:#fff;border:1px solid rgba(21,32,43,.1);box-shadow:0 6px 24px -12px rgba(21,32,43,.25);}
+.pain i{flex:none;width:30px;height:30px;border-radius:50%;background:#fde3e8;color:#a8263e;font-style:normal;font-weight:900;display:grid;place-items:center;font-size:15px;}
+.pain p{font-size:15.5px;color:var(--ink);}
+.pain p b{color:var(--ink);}
+.turn{margin-top:34px;padding:24px;border-radius:16px;background:var(--ink);color:var(--luna);font-family:'Newsreader',serif;font-size:clamp(22px,5.6vw,30px);line-height:1.3;}
+.turn em{color:var(--gold);}
+
+/* ---------- method ---------- */
+.steps{margin-top:36px;display:grid;gap:16px;counter-reset:s;}
+.stp{padding:26px 22px;border-radius:18px;background:linear-gradient(180deg,var(--bg3),var(--bg2));border:1px solid var(--rule);position:relative;counter-increment:s;overflow:hidden;}
+.stp::before{content:counter(s,decimal-leading-zero);position:absolute;right:16px;top:6px;font-family:'Newsreader',serif;font-size:90px;line-height:1;color:rgba(240,180,41,.09);font-weight:500;}
+.stp h3{font-size:25px;color:var(--luna);position:relative;}
+.stp p{margin-top:10px;font-size:15px;color:var(--dim);position:relative;}
+.stp .when{display:inline-block;margin-bottom:12px;font-family:'DM Mono',monospace;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);border:1px solid rgba(240,180,41,.4);padding:4px 9px;border-radius:6px;position:relative;}
+
+/* ---------- stack / offer ---------- */
+.stack{margin-top:32px;border-radius:20px;background:#fff;border:1px solid rgba(21,32,43,.12);box-shadow:0 20px 60px -24px rgba(21,32,43,.4);overflow:hidden;}
+.stack li{list-style:none;display:flex;gap:14px;padding:17px 18px;border-bottom:1px solid rgba(21,32,43,.09);align-items:flex-start;}
+.stack li:last-child{border-bottom:0;}
+.stack li i{flex:none;width:24px;height:24px;border-radius:50%;background:#d8f5e6;display:grid;place-items:center;font-style:normal;font-size:13px;color:#0b7a46;font-weight:900;margin-top:1px;}
+.stack li div{flex:1;font-size:15px;color:var(--ink);}
+.stack li div small{display:block;color:var(--ink-dim);font-size:13.5px;margin-top:2px;}
+.stack li s{flex:none;font-family:'DM Mono',monospace;font-size:12.5px;color:#a8263e;white-space:nowrap;}
+.stack .bonus{background:#fff8e1;}
+.stack .bonus i{background:var(--gold);color:#1b1300;}
+.total{padding:22px 18px;background:var(--ink);color:var(--luna);text-align:center;}
+.total .old{font-size:13px;color:var(--dim);}
+.total .now{font-family:'Newsreader',serif;font-size:clamp(34px,9vw,50px);color:var(--gold);line-height:1.1;margin-top:4px;}
+.total .now small{display:block;font-family:'Chivo',sans-serif;font-size:14px;color:var(--dim);font-weight:300;margin-top:6px;}
+
+/* ---------- about ---------- */
+.about{display:grid;gap:30px;}
+.about .ph{border-radius:20px;overflow:hidden;aspect-ratio:4/5;position:relative;box-shadow:0 30px 70px -26px rgba(0,0,0,.8);}
+.about .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 20%;}
+.about p{margin-top:16px;font-size:16px;color:var(--dim);}
+.creds{margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.cred{display:block;text-decoration:none;padding:16px 14px;border-radius:14px;border:1px solid var(--rule);background:var(--bg2);}
+.cred .n{font-family:'Newsreader',serif;font-size:30px;color:var(--gold);line-height:1;}
+.cred .l{margin-top:6px;font-size:12px;color:var(--dim);line-height:1.35;}
+
+/* ---------- proof: stages ---------- */
+.stages{margin-top:30px;display:grid;gap:10px;}
+.stg{display:flex;justify-content:space-between;gap:14px;align-items:center;padding:16px 18px;border-radius:14px;background:#fff;border:1px solid rgba(21,32,43,.1);}
+.stg b{display:block;font-family:'Newsreader',serif;font-size:19px;font-weight:500;}
+.stg span{font-size:13px;color:var(--ink-dim);}
+.stg em{flex:none;font-style:normal;font-family:'DM Mono',monospace;font-size:11px;color:#a8263e;letter-spacing:.06em;}
+.discs{margin-top:34px;display:grid;gap:16px;}
+.disc{display:flex;gap:16px;align-items:center;padding:14px;border-radius:16px;background:#fff;border:1px solid rgba(21,32,43,.1);}
+.disc img{width:92px;height:92px;border-radius:10px;object-fit:cover;flex:none;}
+.disc b{font-family:'Newsreader',serif;font-size:19px;font-weight:500;display:block;line-height:1.15;}
+.disc span{display:block;font-size:13px;color:var(--ink-dim);margin:3px 0 6px;}
+.disc a{font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#a8263e;border-bottom:1px solid rgba(168,38,62,.4);}
+.award{margin-top:34px;padding:22px;border-radius:16px;background:var(--ink);color:var(--luna);display:flex;gap:16px;align-items:center;}
+.award .ic{flex:none;font-size:34px;}
+.award p{font-size:14.5px;color:var(--dim);}
+
+/* ---------- for whom ---------- */
+.fit{margin-top:30px;display:grid;gap:14px;max-width:640px;margin-left:auto;margin-right:auto;}
+.fit>div{padding:22px;border-radius:18px;background:var(--bg2);border:1px solid var(--rule);}
+.fit h3{font-size:22px;color:var(--luna);}
+.fit ul{list-style:none;margin-top:14px;display:grid;gap:10px;}
+.fit li{display:flex;gap:10px;font-size:15px;color:var(--dim);}
+.fit .yes li::before{content:"✓";color:var(--ok);font-weight:900;}
+
+/* ---------- guarantee ---------- */
+.guar{padding:28px 22px;border-radius:22px;border:2px dashed var(--gold);background:rgba(240,180,41,.06);display:grid;gap:14px;text-align:center;justify-items:center;}
+.guar .shield{width:74px;height:74px;}
+.guar h3{font-size:clamp(26px,7vw,36px);color:var(--luna);}
+.guar p{font-size:15.5px;color:var(--dim);max-width:52ch;}
+
+/* ---------- faq ---------- */
+.faq{margin-top:28px;border-top:1px solid rgba(21,32,43,.16);}
+.faq details{border-bottom:1px solid rgba(21,32,43,.16);}
+.faq summary{list-style:none;cursor:pointer;padding:20px 30px 20px 0;font-family:'Newsreader',serif;font-size:20px;position:relative;line-height:1.25;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"+";position:absolute;right:2px;top:50%;transform:translateY(-50%);font-size:28px;color:#a8263e;transition:transform .3s var(--ease);font-family:'Chivo',sans-serif;font-weight:300;}
+.faq details[open] summary::after{transform:translateY(-50%) rotate(45deg);}
+.faq details p{padding:0 0 22px;font-size:15.5px;color:var(--ink-dim);max-width:62ch;}
+
+/* ---------- final ---------- */
+.final{background:radial-gradient(90% 60% at 50% 0%,#123a4c 0%,transparent 70%),var(--bg);}
+.final-grid{display:grid;gap:34px;}
+.final h2{font-size:clamp(34px,9.4vw,66px);color:var(--luna);}
+.final h2 em{font-style:italic;color:var(--gold);}
+.count{margin-top:26px;display:flex;gap:10px;}
+.count div{flex:1;max-width:84px;padding:12px 4px;border-radius:12px;background:var(--bg2);border:1px solid var(--rule);text-align:center;}
+.count b{display:block;font-family:'DM Mono',monospace;font-size:28px;color:var(--gold);line-height:1;font-weight:500;}
+.count span{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);}
+.ps{margin-top:22px;font-size:14.5px;color:var(--dim);max-width:46ch;}
+.ps b{color:var(--gold);}
+footer{padding:26px 0 calc(110px + env(safe-area-inset-bottom));border-top:1px solid var(--rule);font-family:'DM Mono',monospace;font-size:11px;letter-spacing:.04em;color:var(--dim);}
+footer .wrap{display:flex;flex-direction:column;gap:8px;}
+
+/* ---------- sticky mobile CTA ---------- */
+#sticky{position:fixed;left:0;right:0;bottom:0;z-index:250;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(7,16,26,.94);backdrop-filter:blur(14px);border-top:1px solid var(--rule);transform:translateY(110%);transition:transform .45s var(--ease);}
+#sticky.on{transform:none;}
+#sticky .btn{padding:15px 18px;font-size:15px;}
+
+.rv{opacity:0;transform:translateY(20px);transition:opacity .8s var(--ease),transform .8s var(--ease);}
+.rv.in{opacity:1;transform:none;}
+
+/* ============== tablet / desktop ============== */
+@media (min-width:760px){
+  :root{--pad:32px;--sec:96px;--bar:40px;}
+  body{font-size:17px;}
+  #alert{font-size:14px;}
+  .btn{width:auto;}
+  .card .btn,.done .btn{width:100%;}
+  .hero{padding:52px 0 84px;}
+  .hero-grid{grid-template-columns:1.1fr .9fr;gap:52px;align-items:start;}
+  .hero-photo{order:0;aspect-ratio:4/3.4;margin-bottom:22px;}
+  .row2{grid-template-columns:1fr 1fr;}
+  .pain-list{grid-template-columns:1fr 1fr;}
+  .steps{grid-template-columns:repeat(3,1fr);}
+  .about{grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center;}
+  .creds{grid-template-columns:repeat(4,1fr);}
+  .stages{grid-template-columns:1fr 1fr;}
+  .discs{grid-template-columns:1fr 1fr;}
+  .final-grid{grid-template-columns:1fr 1fr;gap:64px;align-items:center;}
+  footer .wrap{flex-direction:row;justify-content:space-between;}
+  #sticky{display:none;}
+  footer{padding-bottom:34px;}
+}
+@media (min-width:1080px){
+  :root{--pad:40px;--sec:120px;}
+  .hero-grid{gap:72px;}
+}
+/* hero: on desktop the form sits right, photo left */
+@media (min-width:760px){
+  .hero-left,.hero-photo{grid-column:1;}
+  .hero-right{grid-column:2;grid-row:1/3;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{animation-duration:.001ms !important;animation-delay:0ms !important;transition-duration:.001ms !important;}
+  .rv{opacity:1;transform:none;}
+}
+</style>
+</head>
+<body>
+
+<div id="alert"><span class="dot"></span><span><b style="color:#fff">Now booking:</b> only <b id="spots" style="color:#fff">5</b> new-student spots for this season · <u><a href="#apply">Claim yours</a></u></span></div>
+
+<!-- =============== HERO =============== -->
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-left">
+      <span class="badge"><i></i> Free 20-minute cello diagnostic call</span>
+      <h1>Stop practicing in circles, I'll help you build a system designed around <em>your needs and capacity.</em></h1>
+      <p class="sub">Private online cello lessons with <b>Santo Scala Mora</b> — trained inside the <b>Simón Bolívar Symphony Orchestra</b> and the <b>Kunstuniversität Graz</b>. Book a free call and leave with a clear, personal plan.</p>
+      <ul class="bullets">
+        <li><span><strong>Fix the one thing holding you back</strong> — bow, intonation, tension or rhythm — in weeks, not years.</span></li>
+        <li><span><strong>Learn how professionals actually practice</strong> — the same discipline built in a family of musicians.</span></li>
+        <li><span><strong>Prepare with a stage-tested cellist</strong> — auditions, exams, orchestra seats or simply playing beautifully.</span></li>
+      </ul>
+      <div class="avail" aria-label="Spots left this season">
+        <div class="bars" id="bars"></div>
+        <span><b id="spots2">5</b> of 8 new-student spots left</span>
+      </div>
+    </div>
+
+    <div class="hero-photo rv">
+      <img src="assets/capa.jpg" alt="Santo Scala Mora smiling, holding his cello" fetchpriority="high">
+      <div class="tag">
+        <div><b>Santo Scala Mora</b><span>Cellist & cello teacher</span></div>
+        <span class="seal">Vienna · Graz · Sicily</span>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <!-- FORM (cloned into #apply as well) -->
+      <div class="card" data-form>
+        <div class="form-body">
+          <h3>Get your free cello game plan</h3>
+          <p class="p">Takes 60 seconds. I reply personally within 24 hours.</p>
+          <div class="prog"><span class="stepn">Step 1 of 3</span><span class="track"><span class="fill"></span></span></div>
+          <form novalidate autocomplete="on">
+            <div class="step on" data-step="1">
+              <p class="q">Where are you on the cello right now?</p>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="level" value="Beginner"><span><em>🌱</em><div>I'm just starting<small>Beginner</small></div></span></label>
+                <label class="opt"><input type="radio" name="level" value="Intermediate"><span><em>🎶</em><div>I play, but I feel stuck<small>Intermediate</small></div></span></label>
+                <label class="opt"><input type="radio" name="level" value="Advanced"><span><em>🎻</em><div>I'm advanced and want to level up<small>Advanced / pre-professional</small></div></span></label>
+                <label class="opt"><input type="radio" name="level" value="Audition"><span><em>🎯</em><div>I have an audition, exam or competition<small>Preparation</small></div></span></label>
+              </div>
+              <div class="err" data-err="1">Pick one to continue.</div>
+            </div>
+            <div class="step" data-step="2">
+              <p class="q">What do you want most?</p>
+              <div class="opts">
+                <label class="opt"><input type="radio" name="goal" value="Technique"><span><em>💪</em><div>Rock-solid technique and intonation</div></span></label>
+                <label class="opt"><input type="radio" name="goal" value="Sound and expression"><span><em>✨</em><div>A richer sound and real expression</div></span></label>
+                <label class="opt"><input type="radio" name="goal" value="Audition / orchestra"><span><em>🏆</em><div>Win the audition or orchestra seat</div></span></label>
+                <label class="opt"><input type="radio" name="goal" value="Chamber / repertoire"><span><em>🤝</em><div>Chamber music and repertoire coaching</div></span></label>
+              </div>
+              <div class="err" data-err="2">Pick one to continue.</div>
+            </div>
+            <div class="step" data-step="3">
+              <p class="q">Last step — where do I send your plan?</p>
+              <div class="row2">
+                <div class="fld"><label>First name</label><input name="name" type="text" autocomplete="given-name" placeholder="Your name" required></div>
+                <div class="fld"><label>Email</label><input name="email" type="email" autocomplete="email" placeholder="you@email.com" required></div>
+              </div>
+              <div class="fld"><label>WhatsApp (optional, faster reply)</label><input name="phone" type="tel" autocomplete="tel" placeholder="+1 555 000 0000"></div>
+              <div class="fld"><label>Anything I should know? (optional)</label><textarea name="msg" placeholder="Your piece, your goal, your biggest struggle…"></textarea></div>
+              <div class="hp"><label>Leave empty</label><input name="website" tabindex="-1" autocomplete="off"></div>
+              <div class="err" data-err="3">Please add a valid name and email.</div>
+            </div>
+            <button type="button" class="btn" data-next><span data-label>Continue</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+            <button type="button" class="back" data-back hidden>← Back</button>
+          </form>
+          <div class="lock">🔒 100% free · No card · No spam · No commitment</div>
+        </div>
+        <div class="done" role="status" aria-live="polite">
+          <div class="tick"><svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+          <h3>You're in, <span data-who>friend</span>!</h3>
+          <p data-donetext>Your request is on its way to Santo. Expect a personal reply within 24 hours. Want to skip the wait? Message him right now.</p>
+          <a class="btn" data-wa target="_blank" rel="noopener">Chat on WhatsApp now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- =============== PROOF STRIP =============== -->
+<div class="strip" aria-hidden="true">
+  <small>Where your teacher has played and studied</small>
+  <div class="strip-track">
+    <span>Simón Bolívar Symphony Orchestra</span><span>Kunstuniversität Graz</span><span>Wiener Konzerthaus</span><span>Lucerne Festival</span><span>Het Concertgebouw</span><span>Edinburgh International Festival</span><span>Musikverein Graz</span><span>Kronberg · Casals Forum</span>
+    <span>Simón Bolívar Symphony Orchestra</span><span>Kunstuniversität Graz</span><span>Wiener Konzerthaus</span><span>Lucerne Festival</span><span>Het Concertgebouw</span><span>Edinburgh International Festival</span><span>Musikverein Graz</span><span>Kronberg · Casals Forum</span>
+  </div>
+</div>
+
+<!-- =============== PAIN =============== -->
+<section class="light">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Sound familiar?</div>
+      <h2 class="h2">You love the cello. So why does <em>practice</em> feel like a wall?</h2>
+    </div>
+    <div class="pain-list">
+      <div class="pain rv"><i>✕</i><p><b>You practice for hours</b> and the same passages still fall apart.</p></div>
+      <div class="pain rv"><i>✕</i><p><b>Your intonation wanders</b> and you can't tell exactly why.</p></div>
+      <div class="pain rv"><i>✕</i><p><b>Your sound feels thin, scratchy or tense</b> — nothing like the cellists you admire.</p></div>
+      <div class="pain rv"><i>✕</i><p><b>YouTube gave you everything</b> except someone who watches <em>you</em> and tells you the truth.</p></div>
+      <div class="pain rv"><i>✕</i><p><b>An audition or exam is coming</b> and you don't have a plan, only hope.</p></div>
+      <div class="pain rv"><i>✕</i><p><b>You're afraid of wasting money</b> on a teacher who isn't the right fit.</p></div>
+    </div>
+    <div class="turn rv">The problem isn't talent or hours. It's <em>direction.</em> One honest ear and a clear plan change everything — and the first step costs you nothing.</div>
+  </div>
+</section>
+
+<!-- =============== METHOD =============== -->
+<section>
+  <div class="wrap">
+    <div class="rv center">
+      <div class="eyebrow">How it works</div>
+      <h2 class="h2">Three simple steps to a <em>better cello.</em></h2>
+      <p class="lede">No long contracts. No guesswork. You decide after the first call.</p>
+    </div>
+    <div class="steps">
+      <div class="stp rv"><span class="when">Today · 60 seconds</span><h3>Send your request</h3><p>Answer three quick questions above. Santo reads every application himself.</p></div>
+      <div class="stp rv"><span class="when">Within 24 hours</span><h3>Free diagnostic call</h3><p>20 minutes on video. You play, he listens, and points to the exact bottleneck holding you back.</p></div>
+      <div class="stp rv"><span class="when">Your week 1</span><h3>Start your custom plan</h3><p>A practice roadmap built around your level, your repertoire and your goal — then weekly lessons if it feels right.</p></div>
+    </div>
+    <div class="rv" style="margin-top:38px;text-align:center"><a class="btn" href="#apply">Book my free call →</a></div>
+  </div>
+</section>
+
+<!-- =============== OFFER STACK =============== -->
+<section class="light">
+  <div class="wrap">
+    <div class="rv center">
+      <div class="eyebrow">What you get</div>
+      <h2 class="h2">Everything you need to <em>finally</em> move forward.</h2>
+    </div>
+    <ul class="stack rv">
+      <li><i>✓</i><div><b>Free 20-minute diagnostic call</b><small>A real assessment of your bow, left hand, sound and habits.</small></div><s>$60</s></li>
+      <li><i>✓</i><div><b>Your personal practice roadmap</b><small>Written down: what to do, in what order, how long.</small></div><s>$90</s></li>
+      <li><i>✓</i><div><b>Live 1:1 lessons on video</b><small>From anywhere in the world, in Spanish, English, Portuguese, Italian or German, on your schedule.</small></div><s>per lesson</s></li>
+      <li><i>✓</i><div><b>Repertoire, audition and exam coaching</b><small>Orchestral excerpts, concertos, chamber music, Bach suites.</small></div><s>$120</s></li>
+      <li class="bonus"><i>★</i><div><b>BONUS · Warm-up routine that pros use</b><small>The daily 10-minute sequence to wake up tone and intonation.</small></div><s>$40</s></li>
+      <li class="bonus"><i>★</i><div><b>BONUS · Recording feedback</b><small>Send a clip between lessons and get honest, detailed notes.</small></div><s>$70</s></li>
+    </ul>
+    <div class="total rv" style="border-radius:0 0 20px 20px;margin-top:-1px">
+      <div class="old">Value of the starter package: <s>$380+</s></div>
+      <div class="now">Your first call: $0<small>Then choose the lesson plan that fits you — or walk away, no hard feelings.</small></div>
+    </div>
+    <div class="rv" style="margin-top:34px;text-align:center"><a class="btn" href="#apply">I want my free call →</a>
+      <div class="micro"><span>No card</span><span>No commitment</span><span>Reply in 24h</span></div></div>
+  </div>
+</section>
+
+<!-- =============== ABOUT =============== -->
+<section>
+  <div class="wrap about">
+    <div class="ph rv"><img src="assets/capa.jpg" alt="Portrait of cellist Santo Scala Mora" loading="lazy"></div>
+    <div class="rv">
+      <div class="eyebrow">Your teacher</div>
+      <h2 class="h2">Meet <em>Santo</em> — the cellist who's been where you want to go.</h2>
+      <p>Third generation in a family of musicians, Santo started with his father, a cellist, conductor and luthier in Trujillo, Venezuela. At <strong>15 he was principal cellist</strong> of his home state's orchestra — and giving his first lessons.</p>
+      <p>He then joined the <strong>Simón Bolívar Symphony Orchestra</strong>, studied with Julian Arp at the <strong>Kunstuniversität Graz</strong>, debuted at the <strong>Musikverein Graz</strong> and performed at the <strong>Wiener Konzerthaus</strong>.</p>
+      <p>In August 2021 he was a <strong>chamber music and stage presence mentor</strong> at the <strong>Academy for Impact through Music (AIM)</strong> summer residency in Salzburg, Austria, representing the Ilumina collective. At the in-person residency hosted by the Hilti Foundation, he guided the Ilumina group using advanced leadership and rehearsal-facilitation methods, with intensive work on ensemble playing, non-verbal communication, active listening and the stage presence of young musicians.</p>
+      <p>He teaches the way he was taught: with discipline, warmth and zero fluff. He has even developed his own method for students with motor and visual disabilities — because every student deserves a path.</p>
+      <div class="creds">
+        <div class="cred"><div class="n">15</div><div class="l">age he gave his first lessons</div></div>
+        <div class="cred"><div class="n">4</div><div class="l">countries studied and worked in</div></div>
+        <div class="cred"><div class="n">5</div><div class="l">instruments & subjects taught</div></div>
+        <a class="cred" href="https://open.spotify.com/intl-es/artist/1aYLB281KpJgGBu9Ee2rH9" target="_blank" rel="noopener"><div class="n">3</div><div class="l">recordings released ↗</div></a>
+      </div>
+      <div style="margin-top:28px"><a class="btn" href="#apply">Learn with Santo →</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== STAGES / AUTHORITY =============== -->
+<section class="light">
+  <div class="wrap">
+    <div class="rv">
+      <div class="eyebrow">Proof, not promises</div>
+      <h2 class="h2">Learn from someone who <em>performs</em> at this level.</h2>
+    </div>
+    <div class="stages">
+      <div class="stg rv"><div><b>Lucerne Festival</b><span>Only Latin American ensemble invited that year</span></div><em>2022</em></div>
+      <div class="stg rv"><div><b>Wiener Konzerthaus</b><span>Staged concert premiere, YAMawards-nominated</span></div><em>2024</em></div>
+      <div class="stg rv"><div><b>Edinburgh International Festival</b><span>Artistic residency</span></div><em>2024</em></div>
+      <div class="stg rv"><div><b>Het Concertgebouw</b><span>Opening concert of a European tour</span></div><em>2024</em></div>
+    </div>
+    <div class="award rv"><div class="ic">🏅</div><p><b style="color:var(--luna)">Pablo Casals Award 2024 — “For a Better World”.</b> Received with Ilumina at the Kronberg Festival for artistic work and social commitment.</p></div>
+    <div class="discs">
+      <div class="disc rv"><img src="assets/disc1.jpg" alt="Tocuyito Trío album cover" loading="lazy"><div><b>Tocuyito Trío</b><span>Album · Waves Affaire</span><a href="https://open.spotify.com/intl-pt/album/4w0Ts9ywnrYeHr5jNmn5gp" target="_blank" rel="noopener">Hear him play ↗</a></div></div>
+      <div class="disc rv"><img src="assets/disc2.jpg" alt="Gideon Klein String Trio single cover" loading="lazy"><div><b>Gideon Klein — String Trio</b><span>Single</span><a href="https://open.spotify.com/intl-es/album/0WUYeh34befjpvXdC8syQC" target="_blank" rel="noopener">Hear him play ↗</a></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== FIT =============== -->
+<section>
+  <div class="wrap">
+    <div class="rv center"><div class="eyebrow">Is this for you?</div><h2 class="h2">Honest answer: <em>maybe.</em> Here's how to know.</h2></div>
+    <div class="fit">
+      <div class="yes rv"><h3>This is for you if…</h3><ul>
+        <li>You're serious about improving, at any level.</li>
+        <li>You'll practice a little every day and take feedback.</li>
+        <li>You want a teacher with real stage and orchestra experience.</li>
+        <li>You prefer clear, honest guidance over vague encouragement.</li>
+        <li>You want tricks to get better results in the shortest possible time — while staying realistic and true to your abilities.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== GUARANTEE =============== -->
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="guar rv">
+      <svg class="shield" viewBox="0 0 64 64" fill="none" stroke="#f0b429" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M32 5l22 8v16c0 14-9 25-22 30C19 54 10 43 10 29V13z"/><path d="M22 32l7 7 13-14"/></svg>
+      <h3>The zero-risk promise</h3>
+      <p>The diagnostic call is <strong>completely free</strong> and comes with no strings. If you don't leave with at least one concrete thing to fix this week, you owe nothing — and neither does anyone else. Try it, keep the plan, decide later.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =============== FAQ =============== -->
+<section class="light">
+  <div class="wrap">
+    <div class="rv"><div class="eyebrow">Questions</div><h2 class="h2">Everything you're <em>wondering.</em></h2></div>
+    <div class="faq rv">
+      <details><summary>Is the first call really free?</summary><p>Yes. The 20-minute diagnostic call is free, with no card and no obligation. It's how Santo learns your level and how you find out whether you click.</p></details>
+      <details><summary>Do I need to be advanced?</summary><p>Not at all. Santo teaches complete beginners and pre-professionals. He began teaching at 15 and has taught cello, violin, viola, double bass and solfège.</p></details>
+      <details><summary>Are online cello lessons effective?</summary><p>Yes, when the teacher knows what to look for. Santo works on posture, bow, left hand and sound over video, and uses recording feedback between lessons so progress doesn't stop when the call ends.</p></details>
+      <details><summary>What languages do you teach in?</summary><p>Spanish, English, Portuguese, Italian and German. Tell him your preference in the form.</p></details>
+      <details><summary>I'm preparing for an audition or exam. Can you help?</summary><p>That's one of the best uses of the diagnostic call. Santo has led sections in professional orchestras and can build a focused preparation plan around your date.</p></details>
+      <details><summary>What time zones do you cover?</summary><p>Santo is based in Sicily (CET). Lessons work for Europe, the Americas and beyond — mornings and evenings are the easiest overlap for the US and Latin America.</p></details>
+      <details><summary>What happens after I send the form?</summary><p>He replies personally, usually within 24 hours, to schedule your free call at a time that suits you.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- =============== FINAL CTA =============== -->
+<section class="final" id="apply">
+  <div class="wrap final-grid">
+    <div class="rv">
+      <div class="eyebrow">Last step</div>
+      <h2>Your next great <em>practice session</em> starts with one call.</h2>
+      <p class="lede" style="color:var(--dim)">Spots for new students are limited each season so every student gets real attention. Save yours before they're gone.</p>
+      <div class="count" id="count" aria-label="Time left for this season's intake"><div><b data-d>00</b><span>days</span></div><div><b data-h>00</b><span>hrs</span></div><div><b data-m>00</b><span>min</span></div><div><b data-s>00</b><span>sec</span></div></div>
+      <p class="ps"><b>P.S.</b> A year from now you'll wish you had started today. Twenty minutes and a plan is all it takes to stop guessing.</p>
+    </div>
+    <div class="rv" id="form-mount"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="yr"></span> Santo Scala Mora — Cellist</span>
+    <span>santoscalamora@gmail.com · Instagram @Santocellist · Sicily, Italy</span>
+  </div>
+</footer>
+
+<div id="sticky"><a class="btn" href="#apply">Book my free call →</a></div>
+
+<script>
+(function(){
+  /* =================== CONFIG — edit here =================== */
+  var CONFIG = {
+    email:     'santoscalamora@gmail.com',
+    whatsapp:  '3933964347139',           // country code + number, digits only
+    endpoint:  '',                        // paste a Formspree/Getform URL to receive leads without opening the email app
+    spotsLeft: 5,                         // shown in the top bar and hero
+    spotsTotal:8,
+    deadline:  null                       // e.g. '2026-10-31T23:59:59' — null = rolling 7-day window per visitor
+  };
+  /* ========================================================== */
+  var $=function(s,r){return (r||document).querySelector(s);}, $$=function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s));};
+  $('#yr').textContent=new Date().getFullYear();
+
+  /* spots */
+  $$('#spots,#spots2').forEach(function(e){e.textContent=CONFIG.spotsLeft;});
+  var bars=$('#bars');
+  for(var i=0;i<CONFIG.spotsTotal;i++){var b=document.createElement('i'); if(i>=CONFIG.spotsLeft) b.className='x'; bars.appendChild(b);}
+
+  /* clone form into final section */
+  var src=$('[data-form]'), mount=$('#form-mount');
+  mount.appendChild(src.cloneNode(true));
+
+  /* countdown */
+  var end;
+  if(CONFIG.deadline){ end=new Date(CONFIG.deadline).getTime(); }
+  else{
+    try{ end=parseInt(localStorage.getItem('ssm_end'),10); if(!end||end<Date.now()){ end=Date.now()+7*864e5; localStorage.setItem('ssm_end',end); } }
+    catch(e){ end=Date.now()+7*864e5; }
+  }
+  function pad(n){return String(n).padStart(2,'0');}
+  function tick(){
+    var t=Math.max(0,end-Date.now()), c=$('#count');
+    c.querySelector('[data-d]').textContent=pad(Math.floor(t/864e5));
+    c.querySelector('[data-h]').textContent=pad(Math.floor(t/36e5)%24);
+    c.querySelector('[data-m]').textContent=pad(Math.floor(t/6e4)%60);
+    c.querySelector('[data-s]').textContent=pad(Math.floor(t/1e3)%60);
+  }
+  tick(); setInterval(tick,1000);
+
+  /* multi-step form logic (each card is independent) */
+  var sentOnce=false;
+  $$('[data-form]').forEach(function(card){
+    var step=1, form=$('form',card), next=$('[data-next]',card), back=$('[data-back]',card), label=$('[data-label]',card);
+    function show(n){
+      step=n;
+      $$('.step',card).forEach(function(s){s.classList.toggle('on',+s.dataset.step===n);});
+      $('.stepn',card).textContent='Step '+n+' of 3';
+      $('.fill',card).style.width=(n*33.34)+'%';
+      back.hidden=n===1;
+      label.textContent = n===3 ? 'Send my free request' : 'Continue';
+      var f=$('input[name=name]',card); if(n===3&&f) setTimeout(function(){f.focus({preventScroll:true});},350);
+    }
+    function err(n,on){var e=$('[data-err="'+n+'"]',card); if(e) e.classList.toggle('on',on);}
+    function valid(n){
+      if(n===1){var ok=!!$('input[name=level]:checked',card); err(1,!ok); return ok;}
+      if(n===2){var ok2=!!$('input[name=goal]:checked',card); err(2,!ok2); return ok2;}
+      var nm=form.name, em=form.email;
+      var okN=nm.value.trim().length>1, okE=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(em.value.trim());
+      nm.classList.toggle('bad',!okN); em.classList.toggle('bad',!okE); err(3,!(okN&&okE));
+      return okN&&okE;
+    }
+    /* auto-advance on choice for a smoother flow */
+    $$('.opt input',card).forEach(function(r){r.addEventListener('change',function(){err(step,false); setTimeout(function(){ if(step<3 && valid(step)) show(step+1); },260);});});
+    next.addEventListener('click',function(){
+      if(!valid(step)) return;
+      if(step<3) return show(step+1);
+      submit();
+    });
+    back.addEventListener('click',function(){show(step-1);});
+    form.addEventListener('keydown',function(e){ if(e.key==='Enter' && e.target.tagName!=='TEXTAREA'){e.preventDefault(); next.click();} });
+
+    function submit(){
+      if(form.website.value) return;                 // honeypot
+      var d={level:form.level.value,goal:form.goal.value,name:form.name.value.trim(),email:form.email.value.trim(),phone:form.phone.value.trim(),message:form.msg.value.trim(),source:location.href};
+      next.disabled=true; label.textContent='Sending…';
+      var lines=['New free-call request','','Name: '+d.name,'Email: '+d.email,'WhatsApp: '+(d.phone||'—'),'Level: '+d.level,'Goal: '+d.goal,'','Message: '+(d.message||'—')].join('\n');
+      var fallback=function(){
+        location.href='mailto:'+CONFIG.email+'?subject='+encodeURIComponent('Free cello call — '+d.name)+'&body='+encodeURIComponent(lines);
+        finish(true);
+      };
+      if(CONFIG.endpoint){
+        fetch(CONFIG.endpoint,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(d)})
+          .then(function(r){ if(!r.ok) throw 0; finish(false); }).catch(fallback);
+      }else fallback();
+      function finish(viaMail){
+        $$('[data-form]').forEach(function(c){
+          c.classList.add('sent');
+          $('[data-who]',c).textContent=d.name.split(' ')[0];
+          if(viaMail) $('[data-donetext]',c).textContent='Your email app just opened with your request ready — just press send. Want to skip the wait? Message Santo on WhatsApp right now.';
+          $('[data-wa]',c).href='https://wa.me/'+CONFIG.whatsapp+'?text='+encodeURIComponent('Hi Santo! I\'m '+d.name+'. I just requested my free cello call ('+d.level+' · '+d.goal+').');
+        });
+        sentOnce=true; sticky.classList.remove('on');
+        card.scrollIntoView({behavior:'smooth',block:'center'});
+      }
+    }
+  });
+
+  /* reveal */
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.08,rootMargin:'0px 0px -5% 0px'});
+  $$('.rv').forEach(function(el){io.observe(el);});
+
+  /* sticky CTA: shows after hero, hides when a form is on screen */
+  var sticky=$('#sticky'), hero=$('#top'), formsVisible=0;
+  var fo=new IntersectionObserver(function(es){es.forEach(function(e){e.target._v=e.isIntersecting;}); formsVisible=$$('[data-form]').some(function(c){return c._v;}); upd();},{threshold:.15});
+  $$('[data-form]').forEach(function(c){fo.observe(c);});
+  function upd(){ var past=scrollY>hero.offsetHeight*.55; sticky.classList.toggle('on',past&&!formsVisible&&!sentOnce); }
+  addEventListener('scroll',upd,{passive:true}); upd();
+})();
+</script>
+</body>
+</html>
